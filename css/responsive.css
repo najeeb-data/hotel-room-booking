@@ -1,0 +1,21 @@
+@media (max-width: 480px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-1);
+  }
+
+  .field input,
+  .field select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .summary-total__amount {
+    font-size: var(--font-size-xl);
+  }
+}
